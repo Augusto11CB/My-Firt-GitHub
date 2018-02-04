@@ -48,3 +48,18 @@ Tipos de Arquivos GitHub
 		--mixed # retira do 'commit' e volta para 'modified'
 
 		-- hard # elimina tudo, até as edições
+
+		help.github.com/articles/connecting-to-github-with-ssh
+#################Git Hub################
+
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
+após gerar a chave temos que
+
+	cd ~/.ssh/
+
+	cat id_rsa.pub
+
+	Copiar chave gerada.
+
+	Ir em github > setting > ssh and gpg keys e add a chave
