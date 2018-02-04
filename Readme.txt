@@ -31,4 +31,10 @@ Tipos de Arquivos GitHub
 	git shorlog -sn # mostra só a quantidades de commits e o nome da pessoa
 	git log -graph # Mostra em forma grafica algumas coisas
 	git show "hash" # Ex: 'git show 9283sn' 
+
+
+# Outros Comandos II
+	git diff # Usando para ver as modificações antes de se fazer commit //Importante
+	git diff --name-only # Mostra o nome do arquivo modificado
+	
 	
