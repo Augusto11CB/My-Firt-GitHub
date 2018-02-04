@@ -28,13 +28,23 @@ Tipos de Arquivos GitHub
 	git log --author="nome"
 	git shortlog # mostra quais foram os autores, quantos commits fizeram e quais eles foram
 
-	git shorlog -sn # mostra só a quantidades de commits e o nome da pessoa
+	git shortlog -sn # mostra só a quantidades de commits e o nome da pessoa
 	git log -graph # Mostra em forma grafica algumas coisas
 	git show "hash" # Ex: 'git show 9283sn' 
 
 
 # Outros Comandos II
 	git diff # Usando para ver as modificações antes de se fazer commit //Importante
+
 	git diff --name-only # Mostra o nome do arquivo modificado
 	
-	
+	git checkout Nome.arq # Tira a ultima modificação 
+
+	git reset HEAD # Comando 'git add Arq.name' dado, logo arquivo esta em 'Staged' para remove-lo desse estado (Motivo: "mudar a ultima edição, etc")
+
+
+		--soft # retira do 'commit' e volta para o estágio 'Staged'
+
+		--mixed # retira do 'commit' e volta para 'modified'
+
+		-- hard # elimina tudo, até as edições
