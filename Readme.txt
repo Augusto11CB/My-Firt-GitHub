@@ -21,4 +21,14 @@ Tipos de Arquivos GitHub
 	b. Unmodified : Existe no git, mas não teve nenhuma modificação.
 	c. Modified : o arquivo foi modificado, mas ainda não foi "salvo".
 	d. Staged : Estágio que permite o arquivo ser salvo e portanto criar uma versão. Se o arquivo está nessa sessão e executarmos o comando "commit" o arquivo ficara com o tipo("b")
+
+# Outros Comandos I
+	git log
+	git log --decorate
+	git log --author="nome"
+	git shortlog # mostra quais foram os autores, quantos commits fizeram e quais eles foram
+
+	git shorlog -sn # mostra só a quantidades de commits e o nome da pessoa
+	git log -graph # Mostra em forma grafica algumas coisas
+	git show "hash" # Ex: 'git show 9283sn' 
 	
