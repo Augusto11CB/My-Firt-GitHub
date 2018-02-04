@@ -50,16 +50,51 @@ Tipos de Arquivos GitHub
 		-- hard # elimina tudo, até as edições
 
 		help.github.com/articles/connecting-to-github-with-ssh
+
+
 #################Git Hub################
 
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
 
-após gerar a chave temos que
+	Após gerar a chave temos que
 
-	cd ~/.ssh/
+		cd ~/.ssh/
 
-	cat id_rsa.pub
+		cat id_rsa.pub
 
-	Copiar chave gerada.
+		Copiar chave gerada.
 
-	Ir em github > setting > ssh and gpg keys e add a chave
+		Ir em github > setting > ssh and gpg keys e add a chave
+
+
+	Atualizando um arquivo em um repositório
+
+		git push MyFirtGitHub master
+
+	Clonando um repositório
+
+		Link no terminal:
+		g clone link_ssh_do_gitHub nome_do_novo_arquivo_colnado
+
+	######Branch######
+
+		poder modificar sem alterar o local principal(master)
+
+		facilmente desligavel
+
+
+		Criando um Branch
+
+			git checkout -b KappaNomeBranch
+
+
+		Mudando entre Branchs
+
+			git checkout KappaBranch1
+
+			git checkout master
+
+		Apagando um branch
+
+			git branch -D KappaBranch1
+
